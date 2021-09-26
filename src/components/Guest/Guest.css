@@ -1,0 +1,8 @@
+.guest-card {
+	text-align: center;
+	background: #00adb5;
+}
+
+.guest-card img {
+	border-radius: 50%;
+}
