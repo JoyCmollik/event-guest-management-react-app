@@ -7,15 +7,33 @@ const Guest = (props) => {
 
 	return (
 		<article className='guest-card'>
-			<img width='100px' src={imag} alt='guest imag' />
-			<h2>{full_name}</h2>
-			<p>{gender}</p>
-			<p>{relation}</p>
-			<p>{family_members}</p>
-			<p>{contact}</p>
-			<button onClick={() => props.guestHandler(props.guest)}>
-				select as event guest
-			</button>
+			<div className='guest-img'>
+				<img src={imag} alt='guest imag' />
+			</div>
+			<div className='guest-info'>
+				<h2>{full_name}</h2>
+				<p className='guest-relation'>{relation}</p>
+				<div className='guest-info-wrapper'>
+					<p>
+						Gender: <span>{gender}</span>
+					</p>
+					<p>
+						Family Members: <span>{family_members}</span>
+					</p>
+				</div>
+				<p>
+					<span style={{ marginRight: '8px' }}>
+						<i class='fas fa-phone-square-alt'></i>
+					</span>
+					{contact}
+				</p>
+				<button
+					className='add-guest-btn'
+					onClick={() => props.guestHandler(props.guest)}
+				>
+					add to guest list
+				</button>
+			</div>
 		</article>
 	);
 };

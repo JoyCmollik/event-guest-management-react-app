@@ -1,5 +1,5 @@
 .main-container {
-	padding: 20px;
+	padding: 20px 0;
 	display: grid;
 	grid-template-columns: 3fr 1fr;
 	grid-gap: 20px;
@@ -7,13 +7,16 @@
 
 .guests-container {
 	padding: 20px;
-	background: #222831;
+	background: #2b2e4a;
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	grid-gap: 20px;
+	border-radius: 8px;
 }
 
 .final-list-container {
 	padding: 20px;
-	background: #eeeeee;
+	background: #2b2e4a;
+	border-radius: 8px;
+	text-align: center;
 }

@@ -1,8 +1,64 @@
 .guest-card {
+	padding: 8px;
+	background: #f0f5f911;
+	border-radius: 8px;
 	text-align: center;
-	background: #00adb5;
+	color: lightgray;
 }
 
-.guest-card img {
+.guest-img {
+	text-align: center;
+}
+
+.guest-img img {
+	width: 140px;
+	height: 140px;
 	border-radius: 50%;
+	object-fit: cover;
+	object-position: center;
+}
+
+.guest-info {
+	padding: 4px 8px 8px 8px;
+	background: #f0f5f927;
+	border-radius: 8px;
+}
+
+.guest-info h2 {
+	color: #ffffff;
+	letter-spacing: 1px;
+	font-weight: 500;
+}
+
+.guest-info p,
+h2 {
+	margin: 4px;
+}
+
+.guest-relation {
+	color: #ffb319;
+}
+
+.guest-info-wrapper {
+	display: flex;
+	justify-content: space-evenly;
+	border-bottom: 1px solid #808080;
+	margin-bottom: 20px;
+}
+
+.add-guest-btn {
+	width: 90%;
+	padding: 8px 16px;
+	background: #f0f5f971;
+	font-size: 20px;
+	font-weight: 500;
+	text-transform: capitalize;
+	border-radius: 8px;
+	border: none;
+	cursor: pointer;
+	transition: all 0.19s ease;
+}
+
+.add-guest-btn:hover {
+	background: #f0f5f9;
 }

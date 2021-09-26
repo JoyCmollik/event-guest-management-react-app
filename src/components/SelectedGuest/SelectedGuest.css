@@ -1,0 +1,29 @@
+.selected-guest {
+	display: grid;
+	grid-template-columns: 1fr 3fr;
+	background: #f0f5f927;
+	border-radius: 8px;
+	overflow: hidden;
+	margin-bottom: 8px;
+}
+
+.selected-guest img {
+	display: inline-block;
+	width: 100px;
+}
+
+.selected-guest-details {
+	padding: 8px;
+	text-align: left;
+	align-self: top;
+}
+
+.selected-guest-details p,
+h4 {
+	margin: 0;
+	padding: 0;
+}
+
+.family-icon {
+	margin: 0 4px 0 8px;
+}

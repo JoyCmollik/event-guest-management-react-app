@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Guest from '../Guest/Guest';
-import SelectedList from '../SelectedList/SelectedList';
+import SelectedGuests from '../SelectedGuests/SelectedGuests';
 import './Main.css';
 
 const Main = () => {
@@ -32,7 +32,7 @@ const Main = () => {
 				))}
 			</div>
 			<div className='final-list-container'>
-				<SelectedList selectedGuests={selectedGuests} />
+				<SelectedGuests selectedGuests={selectedGuests} />
 			</div>
 		</div>
 	);

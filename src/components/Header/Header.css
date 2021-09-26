@@ -1,10 +1,27 @@
 header {
-	text-align: center;
-	background: #101010;
-	height: 140px;
+	background: #2b2e4a4b;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 100px;
 	padding: 4px 40px;
+	border-radius: 8px;
+	color: white;
 }
 
-header h1 {
-	color: white;
+.app-title {
+	font-weight: 500;
+	letter-spacing: 2.5px;
+}
+
+.guest-limit {
+	background: #212121;
+	padding: 16px 32px;
+	border-radius: 8px;
+	color: #a5a5a5;
+}
+
+.guest-limit span {
+	color: #ff9a00;
+	margin-left: 4px;
 }
